@@ -6,7 +6,7 @@ module.exports = (mode) => ({
   entry: './src/index.tsx',
   mode: mode,
   output: {
-    path: path.resolve(process.cwd(), "./dist"),
+    path: path.resolve(process.cwd(), "./public"),
     filename: '[name].[hash].js'
   },
   resolve: {
