@@ -1,0 +1,29 @@
+.card-collect {
+  .card-collect-title {
+    color: var(--text-text-white-on-dark, #F2F2F2);
+    font-size: 1rem;
+  }
+  .collect-tag-item {
+    padding: 0.25rem 0.5rem;
+    border-radius: 20px;
+    border: 1px solid var(--text-text-gray, #676767);
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 0.5625rem;
+    cursor: pointer;
+    width: auto;
+    min-width: 1.6975rem;
+  }
+  .table-item {
+    border-bottom: 1px solid #282828;
+    margin-bottom: 1rem;
+    &-left {
+      color: var(--text-text-gray, #676767);
+      font-size: 0.75rem;
+    }
+    &-right {
+      color: var(--text-text-white, #EDEDED);
+      font-size: 0.875rem;
+    }
+  }
+}

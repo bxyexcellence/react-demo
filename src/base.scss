@@ -1,0 +1,40 @@
+@import url('./assets/font/font.scss');
+#app{
+  font-family: next book;
+  background: #030303;
+  padding: 20px;
+}
+.root-wrap {
+  position: relative;
+  width: 81.25rem;
+  overflow-x: hidden;
+}
+.base-wrap {
+  width: 84.5rem;
+  overflow-x: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+}
+.right-arrow {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 135px;
+  cursor: pointer;
+  color: #000;
+  &:hover{
+    color: #2A2A2A;
+  }
+}
+.left-arrow {
+  position: absolute;
+  left: 0;
+  top: 135px;
+  z-index: 2;
+  cursor: pointer;
+  color: #000;
+  transform: rotate(180deg);
+  &:hover{
+    color: #2A2A2A;
+  }
+}

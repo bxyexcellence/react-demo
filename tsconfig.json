@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types", "@types"],
+    "types": ["react/next", "react-dom/next", "node"],
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "&/*": ["src/*"]
+    },
+    "lib": ["ES2021", "DOM"],
+    "jsx": "react",
+    "strictNullChecks": true,
+    "noImplicitAny": true
+  }
+}

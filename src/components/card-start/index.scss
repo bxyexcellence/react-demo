@@ -1,0 +1,42 @@
+.card-top {
+  width: 2.875rem;
+  height: 0.25rem;
+  border-radius: 11px;
+  background: var(--gradiant-gradiant-syntax, linear-gradient(180deg, #38C1A5 0%, #0891D5 100%));
+}
+.card-title {
+  color: #EDEDED;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1.81rem;
+}
+.begin-btn {
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+  border: 1px solid #676767;
+  width: 4.2rem;
+  color: var(--color-white, #FFF);
+  font-size: 0.5625rem;
+  line-height: 110%;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.desc {
+  margin-top: 1rem;
+  color: var(--text-text-gray, #676767);
+  font-size: 0.75rem;
+}
+.bottom-list {
+ // margin-top: 4.06rem;
+  color: #fff;
+  font-size: 0.75rem;
+}
+.click-btn {
+  background: var(--button-card-dark-gray-button, #2A2A2A);
+  color: var(--status-progress-green, #9EFA13);
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  cursor: pointer;
+}
