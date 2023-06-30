@@ -14,6 +14,12 @@
   overflow-x: scroll;
   position: relative;
   scroll-behavior: smooth;
+  &::-webkit-scrollbar {
+    background: #030303;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #030303;
+  }
 }
 .right-arrow {
   position: absolute;
